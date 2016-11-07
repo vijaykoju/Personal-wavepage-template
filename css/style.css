@@ -1,0 +1,68 @@
+/* CSS */
+
+#top { text-align: center; background: black; color: #696969; z-index:2; font-size:15pt;}
+
+div#top{ position:fixed; width:100%; margin-top:-35px; height:20%}
+div#top a{color: #696969; text-decoration: none; text-align: center}
+
+#container{position: fixed; width: 80%;}
+
+#leftsection{background-color:black; height: 100%; background-repeat:repeat-y; text-align: center; width: 20%; position: fixed; padding: 0px; top: 0px; margin-left: -20px;}
+
+#leftsection a{color: #696969;}
+#leftsection a:hover{background: rgba(0,0,0,0.0)}
+
+#footer{background-color:black; background-repeat:repeat-y; text-align: center; width: 20%; position: fixed; padding: 0px;bottom:0; color: #696969; font-size:small; margin-left: -20px;}
+
+#middlesection{position: relative; margin-left: 30%; margin-right: 10%; text-align: center; top: 170px;}
+
+#middlesection a{color: black; text-decoration: none;}
+#middlesection a:hover{background: rgba(0,0,0,0)}
+
+#navigation{position: relative; margin-left: 30%; margin-right: 200px; text-align: center; margin-top: -20px;}
+#sch_links{margin-left: 30%; text-align: center; color: blue;}
+
+.name{margin-top:70px; font:bold 50px arial; color:white; text-align: center; margin-left:390px}
+.img-circle { border-radius: 50%; }
+
+#binarygif{border-style: groove; border-width: 5px;}
+
+.heading {font-weight: bold; text-align: center; font-size: 200%; }
+
+.introduction{padding:10px; text-align: justify;}
+
+.left_text1{color: white;}
+.left_text2{color: white;}
+.left_text3{color: white;}
+
+#rightsection{background-color:white; width: 225px; position: absolute; right: 0px; top: -31px; text-align: center;}
+
+#numLists{text-align:left;}
+
+.r1{text-decoration: underline; text-align:left;}
+
+/*#footer{margin-top: 20px; margin-bottom: 20px; font-size: small; position: relative; color: #696969;}*/
+
+
+/*CSS for the drop-down menu*/
+#sddm{  margin-left: 20px; margin-top:14px; padding: 25px; position: fixed; z-index: 2;}
+
+#sddm li{   margin: 0; padding: 0px; list-style: none; float: left; font: bold 15px arial}
+
+#sddm li a{display: block; margin: 0 3px  0; padding: 4px 25px; width: auto; background: transparent ;color: gray; text-align: center; text-decoration: none; font-size:20px; margin-left:10px}
+
+#sddm li a:hover{background: #DCDCDC}
+/* #sddm li a:hover{background: transparent} */
+
+
+#sddm1{  margin-left: 0px; margin-top:0px; padding: 0px; position: fixed; color:blue;}
+
+#sddm1 li{   margin: 0; padding: 0px; list-style: none; float: left; font: bold 15px arial}
+
+#sddm1 li a{display: block; margin: 0 1px  0; padding: 4px 10px; width: auto; text-align: center; text-decoration: none; font-size:13px;}
+
+
+
+p{margin:0}
+
+.menu {display:none; margin-left:0px}

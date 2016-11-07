@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <title>Vijay Koju</title>
+  <link rel="stylesheet" type = "text/css" href="css/style.css" title="style"/>
+  <link rel="stylesheet" href="css/photo-gallery.css" />
+  <script type="text/javascript" src="javascript/Image-Slider-LnR.js"></script> 
+  <link rel="shortcut icon" href="images/vijay1.ico" />
+  <link rel="stylesheet" type="text/css" href="javascript/Image-Slider-LnR.css" />
+  <script src="javascript/javascript.js" type="text/javascript" ></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            $("#top").load("topPart.html");
+        });
+    </script>
+</head>
+
+<body style="background-color:#DCDCDC">
+  <div id="top"></div> 
+	
+	<div id="middlesection">
+		<p class="heading">Bloch surface waves in one dimensional dielectric multilayer structures</p>
+
+	<p class="introduction">
+    One dimensional dielectric multilayer structures are functional materials made up of alternating layers of high and low refractive indices. The majority of work in such systems has been conducted in multilayers with an underlying periodicity known as a one dimensional photonic crystals. An example of such a perfectly periodic functional material is shown in Figure 1(a). The choice of the high and low refractive index materials in such functional materials are based on two facts: (1) width of the photonic band gap due to the refractive index periodicity, and (2) compatibility of the materials for fabrication. One such pair of widely used materials is Silicon dioxide (SiO<sub>2</sub>) and Titanium dioxide (TiO<sub>2</sub>). This combination is used as the model system in the work described here. </br> </br>
+    Useful new optical modes of periodic multilayers can be realized by introducing a defect layer – a layer with a different refractive index or thickness than that of periodic high and low refractive index layers – in an intermediate position or on the surface of the multilayer. Examples of such defect inserted into one dimensional multilayers are shown in Figure 1(b) and Figure 1(c) respectively. 
+	</p>
+
+	<figure>
+	<img src="images/multilayer_with_defect.png" alt="multilayer_with_defect" style="width:60%;height:60%">
+	<figcaption>Figure 1: Illustrations of one dimensional functional materials (a) perfectly periodic (b) periodic with intermediate defect (c) periodic with surface defect. </figcaption>
+	</figure>
+
+	<p class="introduction">
+    In one-dimensional periodic functional materials (1DPFM), the coherent effect of scattering and interference leads to the formation of photonic band gaps – frequency intervals in which no propagation is allowed. An example of photonic band gaps in a 1DPFM is shown in Figure 2(a) and 2(b). The blue regions are the photonic band gaps in which no light propagation is allowed, whereas the green regions are the allowed bands. The introduction of a surface defect [see Figure 1(c)], permits an allowed mode in the otherwise forbidden band gap, illustrated by a white stripe in Figure 2(b). This additional allowed mode which lies beyond the air light line is a non-radiative Bloch surface wave (BSW) mode.
+	</p>
+
+	<figure>
+	<img src="images/band_diagram_combined.png" alt="band_diagram_combined" style="width:60%;height:60%" >
+	<figcaption>Figure 2: Photonic band structures of a 1DPFM (a) perfectly periodic (b) periodic with a surface defect.</figcaption>
+	</figure>
+
+    <p class="introduction">
+    BSWs are electromagnetic waves that exist and propagate at the interface of two dielectric materials. They are akin to surface plasmons, however, because BSWs exist in a pure dielectric materials with very low loss the resonance and propagation characteristics are significantly better.</br> </br>
+    As with surface plasmons, due to the phase mismatch, free space light cannot directly couple into these surface bound modes. For these surface waves the wavelength is always shorter than the wavelength of light at the same frequency. This subwavelength property of surface waves is a desirable characteristic in applications such as nanoscale photolithography. However, the phase mismatch between light and surface waves results in the inability of these modes to be directly generated. This restriction is most commonly mitigated through the use of a prism coupling configuration in which the evanescent field beyond total-internal-reflection (TIR) resonantly generates the surface mode. A schematic of a prism configuration is shown in Figure 3(a). BSW using the prism coupling technique is excited when the parallel wave vector (&beta;) on the top of the 1DPFM is equal to the BSW wave vector (k<sub>BSW</sub>) as given by &beta; = k<sub>BSW</sub> = k<sub>0</sub> n<sub>glass</sub> sin(⁡&theta;<sub>inc</sub>), where k<sub>0</sub> = 2π/&lambda;<sub>0</sub> is the free-space wave number, n<sub>glass</sub> is the incident angle of the input wave.
+    </p>
+
+	<figure>
+	<img src="images/f8.png" alt="prism_coupling" style="width:40%;height:40%" >
+	<figcaption>Figure 3: Prism configuration for exciting BSW.</figcaption>
+	</figure>
+
+    
+    <p class="introduction">
+    Figure 4 shows light prism coupled to BSW in a 16-layered 1DPFM. As shown in Figure 4(a) and 4(c), BSW extends slightly into the air side and creates a tightly confined electromagnetic field which decays exponentially. This property has been used extensively by many researchers for sensing applications. The addition of external material, e.g. chemical electrolyte, on the surface of a 1DPFM changes the effective refractive index of the sensing medium. As a result, the BSW resonant coupling condition changes and the reflectivity dip shifts to the left or right of the previous reflectivity dip position on either the reflectivity versus wavelength or reflectivity versus angle. The angular or spectral change between the dips helps analyze the optical characteristics of the electrolyte and detect changes. An example of the angular shift in the reflectivity dips for different values of sensing medium refractive indices is shown in Figure 4(d).
+    </p>
+
+	<figure>
+	<img src="images/bsw_grant.PNG" alt="bsw_grant" style="width:60%;height:60%">
+	<figcaption>Figure 4: (a) Surface plot of enhanced electromagnetic field due to BSW. (b) Structural profile of a 16-layered 1DPFM with a surface defect. (c) Cross-section of enhanced electromagnetic field due to BSW. (d) Reflectivity versus angle for light prism-coupled to BSW in a 1DPFM at &lambda; = 632.8 nm for different value of superstrate refractive indices. </figcaption>
+	</figure>
+
+    <p class="introduction">
+A second feature of BSW is the enhancement in the electromagnetic field at the surface at which the mode is generated. The field enhancement can best be evaluated from a cross-sectional plot of the field intensity through the 1DPFM as shown in Figure 4(c). The plot demonstrates that the field intensity at the surface is magnified by 400 times compared to the incident intensity in the prism. This field enhancement results from the conversion of a bulk electromagnetic field in the prism into an evanescent surface bound wave – a transition that confines the optical energy in a much smaller volume.
+    </p>
+	
+<!--	<div id="footer">
+		<hr />
+		<p class="f1"><span>Copyright 2011 Vijay Koju. All rights reserved.</span></p> -->
+	</div>
+	
+</body>
+</html> 
